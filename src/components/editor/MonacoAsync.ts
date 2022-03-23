@@ -6,5 +6,5 @@ import Vue from 'vue'
 export default Vue.component(
     'MonacoAsync',
     // A dynamic import returns a Promise.
-    () => import('@/components/inputs/Monaco.vue')
+    () => import('./Monaco.vue')
 )

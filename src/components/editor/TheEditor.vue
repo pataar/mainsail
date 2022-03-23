@@ -133,7 +133,7 @@ import { Component, Mixins, Watch } from 'vue-property-decorator'
 import BaseMixin from '@/components/mixins/base'
 import { formatFilesize, windowBeforeUnloadFunction } from '@/plugins/helpers'
 import Panel from '@/components/ui/Panel.vue'
-import MonacoAsync from '@/components/inputs/MonacoAsync'
+import MonacoAsync from '@/components/editor/MonacoAsync'
 import {
     mdiClose,
     mdiCloseThick,
@@ -164,7 +164,6 @@ export default class TheEditor extends Mixins(BaseMixin) {
     mdiHelpCircle = mdiHelpCircle
     mdiFileDocumentEditOutline = mdiFileDocumentEditOutline
     mdiFileDocumentOutline = mdiFileDocumentOutline
-
 
     get changed() {
         return this.$store.state.editor.changed ?? false

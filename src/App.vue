@@ -54,7 +54,7 @@ import { Mixins, Watch } from 'vue-property-decorator'
 import TheUpdateDialog from '@/components/TheUpdateDialog.vue'
 import TheConnectingDialog from '@/components/TheConnectingDialog.vue'
 import TheSelectPrinterDialog from '@/components/TheSelectPrinterDialog.vue'
-import TheEditor from '@/components/TheEditor.vue'
+import TheEditor from '@/components/editor/TheEditor.vue'
 import { panelToolbarHeight, topbarHeight, navigationItemHeight } from '@/store/variables'
 import TheTimelapseRenderingSnackbar from '@/components/TheTimelapseRenderingSnackbar.vue'
 
